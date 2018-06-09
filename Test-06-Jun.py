@@ -1,0 +1,10 @@
+a=0
+b=1
+c=0
+n=1
+while (n<=20):
+    c=b+a
+    print("Fib ",n, " = ", c)
+    a=b
+    b=c
+    n=n+1
